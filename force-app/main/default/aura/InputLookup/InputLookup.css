@@ -1,0 +1,5 @@
+/*--BS:28/5/2018:Added CSS class to center the lookup icon--*/
+
+.THIS .slds-input__icon.center {
+    top: 65%;
+}

@@ -1,7 +1,7 @@
-global with sharing class InputLookupController {
+public with sharing class InputLookupController {
     
     @AuraEnabled
-    global static String lookupSearch(String objectName, String keyword, String otherParams) {
+    public static String lookupSearch(String objectName, String keyword, String otherParams) {
         //26/7/18 BS: Prevent potential SOQL injection
         keyword=String.escapeSingleQuotes(keyword);
         keyword = '\'%' + keyword + '%\'';

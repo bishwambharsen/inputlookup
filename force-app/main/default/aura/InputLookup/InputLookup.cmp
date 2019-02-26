@@ -1,79 +1,78 @@
-<aura:component>
-    <aura:component controller="InputLookupController">
-        <aura:attribute name="id" type="String" />
-        <aura:attribute name="label" type="String" default="" />
-        <aura:attribute name="keyword" type="String" default="" />
-        <aura:attribute name="value" type="Id" />
-        <aura:attribute name="selectedValue" type="Object" />
-        <aura:attribute name="placeholder" type="String" />
-        <aura:attribute name="object" type="String" />
-        <aura:attribute name="data" type="Object[]" default="[]" />
-        <!--adding validation capabilities-->
-        <aura:attribute name="errors" type="Object[]" />
-        <aura:attribute name="required" type="Boolean" />
-        <aura:attribute name="isLookupFocus" type="Boolean" />
-        <aura:attribute name="extraQuery" type="String" />
-        <aura:handler name="init" value="{!this}" action="{!c.init}" />
+<aura:component controller="InputLookupController">
+    <aura:attribute name="id" type="String" />
+    <aura:attribute name="label" type="String" default="" />
+    <aura:attribute name="keyword" type="String" default="" />
+    <aura:attribute name="value" type="Id" />
+    <aura:attribute name="selectedValue" type="Object" />
+    <aura:attribute name="placeholder" type="String" />
+    <aura:attribute name="object" type="String" />
+    <aura:attribute name="data" type="Object[]" default="[]" />
+    <!--adding validation capabilities-->
+    <aura:attribute name="errors" type="Object[]" />
+    <aura:attribute name="required" type="Boolean" />
+    <aura:attribute name="isLookupFocus" type="Boolean" />
+    <aura:attribute name="extraQuery" type="String" />
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
 
-        <div aura:id="LookupControl" class="slds-form-element slds-lookup" data-select="single">
-            <!--BS:28/5/2018 Leveraging label attribute of ui:inputText-->
-            <!--<label class="slds-form-element__label" for="{!v.id}">{!v.label}</label>-->
+    <div aura:id="LookupControl" class="slds-form-element slds-lookup" data-select="single">
+        <!--BS:28/5/2018 Leveraging label attribute of ui:inputText-->
+        <!--<label class="slds-form-element__label" for="{!v.id}">{!v.label}</label>-->
 
-            <aura:if isTrue="{! !v.value }">
-                <div class="slds-form-element__control">
-                    <!--BS:28/5/2018:Added conditional error class when there is validation error-->
-                    <div class="{!'slds-input-has-icon slds-input-has-icon--right'+ (v.errors.length>0?' uiInput--default has-error':'')}">
-                        <lightning:icon class="slds-input__icon center" iconName="utility:search" size="x-small" />
-                        <!--BS:28/5/2018: Added label and required attributes-->
-                        <ui:inputText class="slds-lookup__search-input input" value="{!v.keyword}" placeholder="{!v.placeholder}" focus="{!c.onLookupControlFocus}" blur="{!c.onLookupControlBlur}" keyup="{!c.onLookupControlKeyup}" label="{!v.label}" updateOn="keyup" required="{!v.required}"
-                        />
-                    </div>
-                    <!--BS:28/5/2018Showing error message when there is error-->
-                    <aura:if isTrue="{!v.errors}">
-                        <ul class="has-error uiInputDefaultError uiInput uiInputTextArea uiInput--default uiInput--textarea">
-                            <aura:iteration items="{!v.errors}" var="error">
-                                <li class="form-element__help">{#error.message}</li>
-                            </aura:iteration>
-                        </ul>
-                    </aura:if>
+        <aura:if isTrue="{! !v.value }">
+            <div class="slds-form-element__control">
+                <!--BS:28/5/2018:Added conditional error class when there is validation error-->
+                <div class="{!'slds-input-has-icon slds-input-has-icon--right'+ (v.errors.length>0?' uiInput--default has-error':'')}">
+                    <lightning:icon class="slds-input__icon center" iconName="utility:search" size="x-small" />
+                    <!--BS:28/5/2018: Added label and required attributes-->
+                    <ui:inputText class="slds-lookup__search-input input" value="{!v.keyword}" placeholder="{!v.placeholder}" focus="{!c.onLookupControlFocus}" blur="{!c.onLookupControlBlur}" keyup="{!c.onLookupControlKeyup}" label="{!v.label}" updateOn="keyup" required="{!v.required}"
+                    />
                 </div>
-            </aura:if>
-
-            <aura:if isTrue="{! v.value }">
-
-                <div class="slds-form-element__control">
-                    <label class="slds-form-element__label" for="{!v.id}">{!v.label}</label>
-                    <div class="slds-pill_container">
-                        <span class="slds-pill slds-size--1-of-1">
-                            <span class="slds-icon_container slds-icon-standard-account slds-pill__icon_container">
-                                <lightning:icon iconName="standard:account" size="x-small" />
-                            </span>
-                        <!--BS:5th June 2018. v.value to v.value.Name-->
-                        <span class="slds-pill__label" title="Salesforce.com, Inc.">{!v.selectedValue.Name}</span>
-                        <button class="slds-button slds-button--icon slds-pill__remove" title="Remove" onclick="{!c.onLookupCloseClick}">
-                                <lightning:icon class="slds-button__icon" iconName="utility:close" size="x-small" />
-                            </button>
-                        </span>
-                    </div>
-                </div>
-            </aura:if>
-
-            <div class="slds-lookup__menu" aura:id="itemList" id="{!v.id}" onmouseleave="{!c.onDivMouseout}">
-                <div class="slds-lookup__item--label slds-text-body--small">Recent Records</div>
-                <ul class="slds-lookup__list" role="listbox">
-                    <aura:iteration items="{!v.data}" var="item">
-                        <!--BS:5th June 2018. Changed data-value to item instead of item.Name-->
-                        <li role="presentation" data-id="{!item.Id}" data-name="{!item.Name}" onclick="{!c.onLookupItemClick}" blue="{!c.onLookupControlBlur}">
-                            <span class="slds-lookup__item-action slds-media" id="lookup-option-474" role="option">
-                                <lightning:icon class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" iconName="standard:account" size="x-small" />
-                                <div class="slds-media__body">
-                                    <div class="slds-lookup__result-text">{!item.Name}</div>
-                                </div>
-                            </span>
-                        </li>
-                    </aura:iteration>
-                </ul>
+                <!--BS:28/5/2018Showing error message when there is error-->
+                <aura:if isTrue="{!v.errors}">
+                    <ul class="has-error uiInputDefaultError uiInput uiInputTextArea uiInput--default uiInput--textarea">
+                        <aura:iteration items="{!v.errors}" var="error">
+                            <li class="form-element__help">{#error.message}</li>
+                        </aura:iteration>
+                    </ul>
+                </aura:if>
             </div>
-        </div>
+        </aura:if>
 
-    </aura:component>
+        <aura:if isTrue="{! v.value }">
+
+            <div class="slds-form-element__control">
+                <label class="slds-form-element__label" for="{!v.id}">{!v.label}</label>
+                <div class="slds-pill_container">
+                    <span class="slds-pill slds-size--1-of-1">
+                        <span class="slds-icon_container slds-icon-standard-account slds-pill__icon_container">
+                            <lightning:icon iconName="standard:account" size="x-small" />
+                        </span>
+                    <!--BS:5th June 2018. v.value to v.value.Name-->
+                    <span class="slds-pill__label" title="Salesforce.com, Inc.">{!v.selectedValue.Name}</span>
+                    <button class="slds-button slds-button--icon slds-pill__remove" title="Remove" onclick="{!c.onLookupCloseClick}">
+                            <lightning:icon class="slds-button__icon" iconName="utility:close" size="x-small" />
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </aura:if>
+
+        <div class="slds-lookup__menu" aura:id="itemList" id="{!v.id}" onmouseleave="{!c.onDivMouseout}">
+            <div class="slds-lookup__item--label slds-text-body--small">Recent Records</div>
+            <ul class="slds-lookup__list" role="listbox">
+                <aura:iteration items="{!v.data}" var="item">
+                    <!--BS:5th June 2018. Changed data-value to item instead of item.Name-->
+                    <li role="presentation" data-id="{!item.Id}" data-name="{!item.Name}" onclick="{!c.onLookupItemClick}" blue="{!c.onLookupControlBlur}">
+                        <span class="slds-lookup__item-action slds-media" id="lookup-option-474" role="option">
+                            <lightning:icon class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" iconName="standard:account" size="x-small" />
+                            <div class="slds-media__body">
+                                <div class="slds-lookup__result-text">{!item.Name}</div>
+                            </div>
+                        </span>
+                    </li>
+                </aura:iteration>
+            </ul>
+        </div>
+    </div>
+
+</aura:component>

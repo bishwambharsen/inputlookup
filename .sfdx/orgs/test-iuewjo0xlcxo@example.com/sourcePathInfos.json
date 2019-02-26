@@ -205,7 +205,7 @@
             "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes",
             "isDirectory": true,
             "size": 320,
-            "modifiedTime": 1551162855478,
+            "modifiedTime": 1551168253308,
             "changeTime": 1551162855478,
             "contentHash": "4e723c093900cc5803e0251c92205a4c4caec584",
             "isMetadataFile": false,
@@ -409,14 +409,14 @@
     [
         "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/CloneQuoteToOpportunityController.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/CloneQuoteToOpportunityController.cls",
             "isDirectory": false,
-            "size": 1298,
-            "modifiedTime": 1551162855478,
-            "changeTime": 1551162855478,
-            "contentHash": "0c56b5e4f83358a53dc18d7cb09a189517cd105c",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1318,
+            "modifiedTime": 1551169977581,
+            "changeTime": 1551169977581,
+            "contentHash": "49b06574bad5b778faf9cac88f31816a6ff59496"
         }
     ],
     [
@@ -487,14 +487,14 @@
     [
         "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/CloneQuoteToOpportunityController_Test.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/CloneQuoteToOpportunityController_Test.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1792,
             "modifiedTime": 1551168253308,
             "changeTime": 1551168253308,
-            "contentHash": "f732f55d8af05f89c2ae3f6ed528d501f464f13c"
+            "contentHash": "f732f55d8af05f89c2ae3f6ed528d501f464f13c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

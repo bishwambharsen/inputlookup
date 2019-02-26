@@ -19,8 +19,10 @@ public with sharing class CloneQuoteToOpportunityController {
         insert clonedQuote;
         
         List<QuoteLineItem> clonedLineItems=currentLineItems.deepClone(false);
-        for(QuoteLineItem qi:clonedLineItems)
+        for(QuoteLineItem qi:clonedLineItems){
             qi.QuoteId=clonedQuote.Id;
+        }
+        
         
         if(!clonedLineItems.isEmpty())insert clonedLineItems;
     }

@@ -45,7 +45,7 @@
                 <div class="slds-pill_container">
                     <span class="slds-pill slds-size--1-of-1">
                         <span class="slds-icon_container slds-icon-standard-account slds-pill__icon_container">
-                            <lightning:icon iconName="standard:account" size="x-small" />
+                            <lightning:icon iconName="standard:opportunity" size="x-small" />
                         </span>
                     <!--BS:5th June 2018. v.value to v.value.Name-->
                     <span class="slds-pill__label" title="Salesforce.com, Inc.">{!v.selectedValue.Name}</span>
@@ -62,9 +62,9 @@
             <ul class="slds-lookup__list" role="listbox">
                 <aura:iteration items="{!v.data}" var="item">
                     <!--BS:5th June 2018. Changed data-value to item instead of item.Name-->
-                    <li role="presentation" data-id="{!item.Id}" data-name="{!item.Name}" onclick="{!c.onLookupItemClick}" blue="{!c.onLookupControlBlur}">
+                    <li role="presentation" data-id="{!item.Id}" data-name="{!item.Name}" onclick="{!c.onLookupItemClick}" blur="{!c.onLookupControlBlur}">
                         <span class="slds-lookup__item-action slds-media" id="lookup-option-474" role="option">
-                            <lightning:icon class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" iconName="standard:account" size="x-small" />
+                            <lightning:icon  iconName="standard:opportunity" size="x-small" />
                             <div class="slds-media__body">
                                 <div class="slds-lookup__result-text">{!item.Name}</div>
                             </div>

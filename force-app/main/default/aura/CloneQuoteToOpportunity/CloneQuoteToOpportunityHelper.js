@@ -7,21 +7,26 @@
         action.setParams({
             quoteId: currentQuoteId,
             opptyId: cloneToOpptyId
-        })
-        toggleSpinner();
+        });
+        
+        var self=this;
+        self.toggleSpinner(cmp, event);
+        
         action.setCallback(this, function(response) {
             var state = response.getState();
-            toggleSpinner();
+            
+            self.toggleSpinner(cmp, event);
+            
             if (state === "SUCCESS") {
                 console.log("Quote successfully cloned to new opportunity");
                 $A.get('e.force:closeQuickAction').fire();
-                showToast("success","Success","The quote has been sucessfully cloned.");
+                self.showToast("success","Success","The quote has been sucessfully cloned.");
                 
             } else if (state === "ERROR") {
                 var error = response.getError();
                 console.log("Error encountered: " + JSON.stringify(error));
                 $A.get('e.force:closeQuickAction').fire();
-                showToast('error',"Error","Something went wrong!");
+                self.showToast("error","Error","Something went wrong!");
                 
             }
         });

@@ -3,6 +3,7 @@ public with sharing class CloneQuoteToOpportunityController {
     public static void cloneQuoteToNewOppty(Id quoteId, Id opptyId){
         Quote currentQuote=[select Name, ExpirationDate, OpportunityId, AccountId, Status,
                             Description, BillingAddress, BillingName, ContactId, Discount,
+                            ShippingAddress, ShippingName,  
                             Email, ShippingHandling, Tax, PriceBook2Id,
                             (select ServiceDate, Discount, Description, ListPrice, Product2Id,
                              Quantity, QuoteId,UnitPrice,Subtotal, TotalPrice, PriceBookEntryId     

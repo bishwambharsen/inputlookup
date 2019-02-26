@@ -1,0 +1,404 @@
+[
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1551061027908,
+            "changeTime": 1551061027908,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1551061027908,
+            "changeTime": 1551061027908,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1551152106841,
+            "changeTime": 1551152106841,
+            "contentHash": "abed2654d84706c55c2415cd0c6e1c16e94c607b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1551152106830,
+            "changeTime": 1551152106830,
+            "contentHash": "0f67b3116913e220acfb4e99bc4f11386661238f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup",
+            "isDirectory": true,
+            "size": 352,
+            "modifiedTime": 1551148275261,
+            "changeTime": 1551148275261,
+            "contentHash": "588d877d4be8bacece69f84e483c97916ebc65e3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.auradoc",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1551061153177,
+            "changeTime": 1551061153177,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.cmp",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.cmp",
+            "isDirectory": false,
+            "size": 4735,
+            "modifiedTime": 1551149368181,
+            "changeTime": 1551149368181,
+            "contentHash": "342a834d4f8a4111969711ab77d5a5df37140292",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 243,
+            "modifiedTime": 1551061153175,
+            "changeTime": 1551061153175,
+            "contentHash": "adc2d0a392c79cb8b4a9b5b300f3da46ac2f7613",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.css",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.css",
+            "isDirectory": false,
+            "size": 112,
+            "modifiedTime": 1551061259990,
+            "changeTime": 1551061259990,
+            "contentHash": "34c8fda1a038bb4b72563e3f2274cc8f01f0ff7e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.design",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1551061153178,
+            "changeTime": 1551061153178,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.svg",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookup.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1551061153177,
+            "changeTime": 1551061153177,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookupController.js",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookupController.js",
+            "isDirectory": false,
+            "size": 2377,
+            "modifiedTime": 1551061224182,
+            "changeTime": 1551061224182,
+            "contentHash": "e761522300f9acb8b37bc6849c635fcc2a5a7052",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookupHelper.js",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookupHelper.js",
+            "isDirectory": false,
+            "size": 1029,
+            "modifiedTime": 1551061240610,
+            "changeTime": 1551061240610,
+            "contentHash": "c9dc0fe61aa0e83bbc2b291138705ce850150329",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookupRenderer.js",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/InputLookup/InputLookupRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1551061153176,
+            "changeTime": 1551061153176,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1551148309421,
+            "changeTime": 1551148309421,
+            "contentHash": "e4c9442ba704d58ba8af3b9ed0b5b69d9cd03b8e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController.cls",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController.cls",
+            "isDirectory": false,
+            "size": 1009,
+            "modifiedTime": 1551148309418,
+            "changeTime": 1551148309418,
+            "contentHash": "66fd32b60e0569feee56532392a0228c71ba7d51",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1551148309416,
+            "changeTime": 1551148309416,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController_Test.cls",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController_Test.cls",
+            "isDirectory": false,
+            "size": 893,
+            "modifiedTime": 1551148309421,
+            "changeTime": 1551148309421,
+            "contentHash": "79e0b621614ada771ab228e8b056132c5b7fe4ed",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController_Test.cls-meta.xml",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/classes/InputLookupController_Test.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1551148309420,
+            "changeTime": 1551148309420,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/lwc",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/lwc",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1551061027908,
+            "changeTime": 1551061027908,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1551152003887,
+            "changeTime": 1551152003887,
+            "contentHash": "62533bf04610bd2b3dd430aef44fc35fe8f23ec0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunity.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunity.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1551152106832,
+            "changeTime": 1551152106832,
+            "contentHash": "44552d5f0ead99a404fe423187718fc248819736",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunity.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunity.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 482,
+            "modifiedTime": 1551152705453,
+            "changeTime": 1551152705453,
+            "contentHash": "46f2a8bfc60901b43c9b0329bc43c58c3c51ba4a"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 18842,
+            "modifiedTime": 1551152106848,
+            "changeTime": 1551152106848,
+            "contentHash": "45bad8ddbbe4b2d3ab34a3d3fd16364e52586bc8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity",
+        {
+            "state": "u",
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 192,
+            "modifiedTime": 1551152705453,
+            "changeTime": 1551152705453,
+            "contentHash": "fe1139291fd22118e5f56c25b251c47947456e27"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1551152106848,
+            "changeTime": 1551152106848,
+            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunityHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunityHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 48,
+            "modifiedTime": 1551152705452,
+            "changeTime": 1551152705452,
+            "contentHash": "126286baeb5bd50fa8a49d0f45171303ec4b0ce8"
+        }
+    ],
+    [
+        "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunityController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/bishwambharsen/sfdx_projects/lightninginputlookup/force-app/main/default/aura/CloneQuoteToOpportunity/CloneQuoteToOpportunityController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 56,
+            "modifiedTime": 1551152705452,
+            "changeTime": 1551152705452,
+            "contentHash": "062306bad633654ee6a71bc0ea7e3b121388d35f"
+        }
+    ]
+]

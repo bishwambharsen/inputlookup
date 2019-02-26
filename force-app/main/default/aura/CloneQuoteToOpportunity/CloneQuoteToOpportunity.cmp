@@ -1,0 +1,11 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSobjectName">
+    <aura:attribute name="opportunityId" type="string" />
+    
+    <c:InputLookup label="Opportunity" 
+                   object="Opportunity" 
+                   required="true" 
+                   isLookupFocus="true" 
+                   value="{!v.opportunityId}" />
+    
+    <lightning:button label="Clone" variant="brand" onclick="{!c.cloneQuote}" />
+</aura:component>

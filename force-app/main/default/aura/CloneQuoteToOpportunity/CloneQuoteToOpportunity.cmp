@@ -1,4 +1,4 @@
-<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSobjectName">
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSobjectName" controller="CloneQuoteToOpportunityController">
     <aura:attribute name="opportunityId" type="string" />
     
     <c:InputLookup label="Opportunity" 
